@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    display: contents;
+}
+
+
+body{
+    margin-left: 0px;
+    padding: 0;
+    align-items: center;
+    display: inline-block;
+}
+
+img{
+    width: auto;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap ;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+div.profesores{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 250px; height:auto;
+    padding: 10PX;
+}
+
+div.profesores img{
+    width: 100%;
+    height: auto;
+}
+
+div.profesores:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 3px 3px 7px purple;
+    padding: 10px;
+}

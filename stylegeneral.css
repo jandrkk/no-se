@@ -1,0 +1,125 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.encabezado{
+    background-color: #261544;
+    border-radius: 40px;
+    display: flex;
+    grid-template-columns: 20% 80%;
+}
+
+.apartado{
+    font-size: 60px;
+    color: white;
+}
+
+img{
+    border-radius: 40px;
+}
+
+.navegador ul li{
+    display: inline-flex;
+}
+
+body {
+    background-color: #341d5c;
+    margin-bottom: 0px;
+}
+
+p {
+    color: white;
+}
+
+hr {
+    color: #291749;
+}
+
+.titulos2 {
+    color: palevioletred;
+}
+
+.navegador ul li a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.navegador ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.prds{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.20);
+    object-fit: cover;
+    transition: all .5s;
+}
+
+.prds:hover img{
+    transform: scale(1.2);
+}
+
+.precio{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info {
+    padding: 5px 20px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cargo{
+    border: none;
+    background: none;
+    background-color: #3e236e;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.info button{
+    border: none;
+    background: none;
+    background-color: #3e236e;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.info h2 {
+    color: palevioletred;
+}
+
+.prds figure{
+    overflow: hidden;
+}
+
+footer {
+    border: 100px;
+    border-radius: 20px;
+    background-color: #291749;
+    text-align: center;
+
+    color: white;
+}
